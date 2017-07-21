@@ -89,5 +89,5 @@ with tf.Session() as sess:
     accuracy = tf.reduce_mean(tf.cast(correct_prediction, "float"))
     ans = accuracy.eval({x: mnist.test.images, y: mnist.test.labels})
 
-    print("Accuracy:", ans) 
+    print("Accuracy: %.3f" % ans) 
     assert ans >= 0.80

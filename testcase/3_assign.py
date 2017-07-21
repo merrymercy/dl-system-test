@@ -29,4 +29,5 @@ fixW = tf.assign(W, [-1.0])
 fixb = tf.assign(b, [1.])
 sess.run([fixW, fixb])
 ans = sess.run(error, feed)
+
 assert np.equal(ans, 0)
