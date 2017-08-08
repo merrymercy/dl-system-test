@@ -12,8 +12,9 @@ testcase for [PPCA 2017](https://acm.sjtu.edu.cn/wiki/PPCA_2017#.E6.9C.BA.E5.99.
 | 6  | optimizer   | gradient descent optimizer |
 | 7  | multilayer perceptron | relu activation |
 | 8  | adam        | adam optimizer |
-| 9  | CNN 1       | simple CNN |
-| 10 | CNN 2       | simple CNN with dropout |
+| 9  | CNN 0       | correctness of convolution and maxpool layer |
+| 10 | CNN 1       | simple CNN |
+| 11 | CNN 2       | simple CNN with dropout |
 
 # How to run test
 ```bash
